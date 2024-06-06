@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylemariobross.css">
+
+    <title>Encanadores Irmãos Mario's</title>
+</head>
+
+<body>
+
+    <div class="marcara-fomulario" onclick="esconderform()"></div>
+
+    <div class="header">
+        <img src="./img/icon.png" alt="rosto do mario bros">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale conosco</a>
+
+
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/image.png" alt="Logo do Mario Bros" class="logo-mario">
+
+            <p class="paragrafo-1">Encanadores Mario & Luigi - Resolvendo seus problemas com eficiencia ! </p>
+            <P class="paragrafo-2">Você já se encontrou em uma situação de emergência com encanamento? Vazamentos
+                inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</P>
+
+
+            <button class="botao-entre-em-contato" onclick="mostrarform()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="foto mario e luigi" class="imagem-mario-luigi">
+
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5527998826988&text=Quero%20fazer%20um%20or%C3%A7amento!"
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para whatsapp">
+
+    </a>
+
+,<form class="formulario">
+    <input placeholder="Seu nome">
+    <input placeholder="Seu telefone">
+    <textarea placeholder="Digite seu problema aqui"></textarea>
+    <button>Pedir Orçamento</button>
+
+</form>
+
+</body>
+
+<script src="scriptmario.js"></script>
+
+</html>
